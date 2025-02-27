@@ -1,0 +1,126 @@
+body {
+    background-color: #000957;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); 
+    gap: 5px; 
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.element {
+    border-radius: 4px;
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.element:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+a {
+    text-decoration: none;
+}
+
+.number {
+    padding-left: 3px;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+.symbol {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 10px;
+}
+
+.space {
+    height: 50px;
+    background-color: transparent; 
+    border: 1px solid transparent; 
+}
+
+
+
+.pink {
+    background-color: #F5004F;
+    color: white;
+}
+
+.yellow {
+    background-color: #FFD700;
+    color: white;
+}
+
+
+.darkviolet {
+    background-color: #6a0dad; 
+    color: white;
+}
+
+.violet {
+    background-color: #A020F0;
+    color: white;
+}
+
+.darkgreen {
+    background-color: #90EE90;
+    color: white;
+}
+
+.lightgreen {
+    background-color: #32CD32;
+    color: white;
+}
+
+.lightblue {
+    background-color: #577BC1;
+    color: white;
+}
+
+.blue {
+    background-color: #16C47F;
+    color: white;
+}
+
+.biscuit {
+    background-color: #FFD65A;
+    color: white;
+}
+
+.green {
+    background-color: #31511E;
+    color: white;
+}
+
+.greenshade {
+    background-color: #48A6A7;
+    color: white;
+}
